@@ -32,7 +32,7 @@ program main
     
     t1 = wallclock()
     
-    ! Print timing information
+    ! Print la info
     print "(i5,1x,a,1x,f9.5,2x,a,f12.4)", m, " tiempo =", t1 - t0, &
       " MFLOPS = ", 1.d-6 * 2.d0 * m * m * m / (t1 - t0)
     
